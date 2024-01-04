@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherApp</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <h1>Weather Cities Project</h1>
+    </div>
+
+    <div id="searchsection">
+      <div id="searchbox">
+        <span class="material-symbols-outlined" for="searchinput">
+          search
+        </span>
+        <input
+          type="text"
+          id="searchinput"
+          placeholder=" Search for a city or airport"
+          value=""
+        />
+      </div>
+      <button type="button" id="addcitybtn" onclick="getWeather()">Add City</button>
+    </div>
+
+    <div id="weatherdisplay">
+      <!-- <div id="cart">
+            <div id="leftcontainer">
+                <h4 id="temp">19.19°</h4>
+                <div id="cityName">
+                    <div>
+                    <p id="lowHight">Humidity: 38%</p>
+                    </div>
+                    <div>
+                    <p id="cityname">Tokyo, Japon</p>
+                    </div>
+                </div>
+            </div>
+            <div id="rightcontainer">
+                <img src="image/Sun cloud angled rain.svg" alt="" />
+                <div><p id="weather">Showers</p></div>
+            </div>
+      </div> -->
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
